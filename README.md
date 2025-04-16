@@ -26,8 +26,7 @@ Todas as páginas são acessadas pelo menu de navegação fixo presente no topo 
  
 ## Link para o Projeto
  
-- **Repositório GitHub:** [https://github.com/TLean07/CPHTML1]
-- **GitHub Pages:** []
+- **Repositório GitHub:** [https://github.com/TLean07/CPHTML1](https://github.com/TLean07/CPHTML1)
  
 ## Tecnologias Utilizadas
  
