@@ -19,10 +19,15 @@ Todas as páginas são acessadas pelo menu de navegação fixo presente no topo 
 ## Integrantes do Grupo
  
 - **Leandro Afonso Silva Santos Júnior** — Responsável pela Página Inicial
+- GitHub: [Leandro](https://github.com/TLean07)
 - **Lucas Mesquita Massoni** — Responsável pela Página de Contato
+- GitHub: [Lucas](https://github.com/lucasmassoni06)
 - **Luigi Escudero Grigoletto** — Responsável pela Página de Produtos
+- GitHub: [Luigi](https://github.com/Lueg2007)
 - **Guilherme Barone Milani** — Responsável pela Página de História
+- GitHub: [Guilherme](https://github.com/GuilhermeBM3012)
 - **Felipe Balbino Murad** — Responsável pela Página da Equipe
+- GitHub: [Felipe](https://github.com/FelipeM211)
  
 ## Link para o Projeto
  
