@@ -409,3 +409,26 @@ footer {
   margin-left: 600px;
   margin-bottom: 50px;
 }
+.historia {
+  background-color: #1a1a1a;
+  font-family: 'Georgia', serif
+}
+#forte {
+  color: #c2a570;
+}
+#nome {
+  color: #a47b5e;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+#texto{
+  font-size: 22px;
+}
+
+#loja_hist{
+  height: 500px;
+  width: 550px;
+}
+.mundo_vinhos {
+  background-color: #1a1a1a;
+}
