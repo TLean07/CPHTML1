@@ -29,8 +29,6 @@ Todas as páginas são acessadas pelo menu de navegação fixo presente no topo 
 - **Repositório GitHub:** [https://github.com/TLean07/CPHTML1]
 - **GitHub Pages:** []
  
-> *Substitua "usuario" pelo nome de usuário real do GitHub ao publicar.*
- 
 ## Tecnologias Utilizadas
  
 - HTML5 semântico
