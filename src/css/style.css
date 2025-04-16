@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    background-color: #0a0a0a;
+    color: #f5f5f5;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+  }
+   
+  header {
+    background-color: #111;
+    padding: 1.5rem 2rem;
+  }
+   
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   
+  .logo {
+    font-size: 1.8rem;
+    color: #a47b5e;
+    text-transform: uppercase;
+  }
+   
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+   
+  .nav-menu a {
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: color 0.3s;
+  }
+   
+  .nav-menu a:hover {
+    color: #a47b5e;
+  }
+   
+  main {
+    padding: 2rem;
+  }
+
+  .hero {
+    background-image: url('/src/assets/img/vinho-banner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+  }
+   
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #c2a570;
+    text-shadow: 1px 1px 3px #000;
+  }
+   
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    text-shadow: 1px 1px 2px #000;
+  }
+   
+  .hero .btn {
+    background-color: #a47b5e;
+    color: #fff;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+   
+  .hero .btn:hover {
+    background-color: #c2a570;
+  }
+
+  .sobre {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 4rem 2rem;
+  }
+   
+  .sobre h2 {
+    font-size: 2.2rem;
+    color: #a47b5e;
+    margin-bottom: 1rem;
+  }
+   
+  .sobre span {
+    color: #c2a570;
+    font-weight: bold;
+  }
+   
+  .sobre-conteudo {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+   
+  .sobre .texto {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+   
+  .sobre .texto p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+   
+  .sobre ul {
+    list-style:circle;
+    padding: 0;
+  }
+   
+  .sobre ul li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+   
+  .sobre ul li i {
+    color: #a47b5e;
+    margin-right: 0.5rem;
+  }
+   
+  .sobre .imagem {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+   
+  .sobre .imagem img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+  }
+   
+  .sobre .imagem img:hover {
+    transform: scale(1.03);
+  }  
+   
+  .btn {
+    background-color: #a47b5e;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+   
+  .btn:hover {
+    background-color: #c99777;
+  }
+   
+  section {
+    margin: 3rem 0;
+  }
+   
+  section img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+   
+  ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+  }
+
+  .contato {
+    color: #f2f2f2;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+   
+  .contato h2 {
+    font-size: 2rem;
+    color: #c2a570;
+    margin-bottom: 2rem;
+  }
+   
+  .contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+  }
+   
+  .contato label {
+    text-align: left;
+    font-size: 1rem;
+    color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+   
+  .contato input,
+  .contato textarea {
+    padding: 0.8rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: inherit;
+    width: 100%;
+  }
+   
+  .contato button {
+    background-color: #a47b5e;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  .contato button:hover {
+    background-color: #c2a570;
+  }
+  
+  .video, .lista, .tabela {
+  background-color: #121212;
+  color: #f2f2f2;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+ 
+.video h2,
+.lista h2,
+.tabela h2 {
+  color: #c2a570;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+ 
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+ 
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+ 
+.lista ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+ 
+.lista li {
+  background-color: #1e1e1e;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-left: 4px solid #a47b5e;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+ 
+.lista li i {
+  margin-right: 0.5rem;
+  color: #c2a570;
+}
+ 
+.tabela table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+}
+ 
+.tabela th,
+.tabela td {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+}
+ 
+.tabela th {
+  background-color: #a47b5e;
+  color: #fff;
+}
+ 
+.tabela td {
+  color: #ddd;
+}
+ 
+.tabela tr:last-child td {
+  border-bottom: none;
+}
+ 
+footer {
+    background-color: #1a1a1a;
+    color: #bbb;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    border-top: 1px solid #333;
+    margin-top: auto;
+  }
