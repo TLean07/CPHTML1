@@ -33,7 +33,7 @@ Todas as páginas são acessadas pelo menu de navegação fixo presente no topo 
  
 - **Repositório GitHub:** [https://github.com/TLean07/CPHTML1](https://github.com/TLean07/CPHTML1)
 - **GitHub Pages:** [https://tlean07.github.io/CPHTML1/](https://tlean07.github.io/CPHTML1/)
-- **Vercel** [https://vinheria.vercel.app](https://vinheria.vercel.app)
+- **Vercel:** [https://vinheria.vercel.app](https://vinheria.vercel.app)
  
 ## Tecnologias Utilizadas
  
