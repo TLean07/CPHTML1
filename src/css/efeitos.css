@@ -1,0 +1,30 @@
+.logo{
+    animation-duration: 4s;
+    animation-name: logo;
+    animation-iteration-count: infinite;
+
+}
+@keyframes logo{
+    0% { opacity: 0}
+    25% {opacity: 0.25}
+    50% {opacity: 0.5}
+    75% {opacity: 0.75}
+    100% { opacity: 1}
+
+}
+.nav-menu a:hover {
+    color: #a47b5e;
+
+  }
+.historia:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+  }
+.mundo_vinhos:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+}
+.mensagem_final:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+}
