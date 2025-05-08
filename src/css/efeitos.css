@@ -16,23 +16,34 @@
 
 
 /* HISTÓRIA*/
-.historia:hover{
+.historia:hover,
+.mundo_vinhos:hover,
+.mensagem_final:hover{
     transform: scale(1.03);
     box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
     max-width: 1100px;
-    margin: 0 auto;
     padding: 60px 30px;
     background-color: #232222;
     border-radius: 15px;
     margin-bottom: 45px;
+    transition: all 1s;
   }
-.mundo_vinhos:hover{
-    transform: scale(1.03);
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+.img-container {
+    width: 400px;
+    height: 350px;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+#texto{
+    font-size: 22px;
 }
-.mensagem_final:hover{
-    transform: scale(1.03);
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+#texto::first-letter{
+    font-size: 40px;
+}
+#nome{
+    font-size: 40px;
+  margin-bottom: 15px;
 }
 
 /* EQUIPE*/ 

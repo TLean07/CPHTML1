@@ -44,5 +44,14 @@ Todas as páginas são acessadas pelo menu de navegação fixo presente no topo 
 - Navegação com links internos e externos
 - Formulário funcional com validação
  
----
+## Efeitos Vizuais
+
+- HISTÓRIA:
+Quando o usuário passa o mouse (hover) sobre qualquer as divs com a classe .historia, .mundo_vinhos ou .mensagem_final sofrem:
+
+UMA TRANSFORMAÇÃO EM ESCALA:
+transform: scale(1.03); -> o elemento aumenta levemente de tamanho (3% maior)
+
+ALGUMAS MUDANÇAS LEVES e UMA TRANSIÇÃO:
+transition: all 1s -> fez com que todas as mudanças passassem por uma transição de 1 segundo 
  
