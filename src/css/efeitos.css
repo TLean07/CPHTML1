@@ -13,9 +13,18 @@
     color: #a47b5e;
 
   }
+
+
+/* HISTÓRIA*/
 .historia:hover{
     transform: scale(1.03);
     box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    background-color: #232222;
+    border-radius: 15px;
+    margin-bottom: 45px;
   }
 .mundo_vinhos:hover{
     transform: scale(1.03);
@@ -25,6 +34,8 @@
     transform: scale(1.03);
     box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
 }
+
+/* EQUIPE*/ 
 .membros .membro:nth-child(odd) {
     background-color: rgba(164, 123, 94, 0.1); 
     border-radius: 8px;
@@ -44,3 +55,6 @@
 .equipe h2:hover {
     transform: scale(1.05); 
 }
+
+/* CONTATO*/ 
+
