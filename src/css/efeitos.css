@@ -1,14 +1,11 @@
 .logo{
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-name: logo;
     animation-iteration-count: infinite;
 
 }
 @keyframes logo{
     0% { opacity: 0}
-    25% {opacity: 0.25}
-    50% {opacity: 0.5}
-    75% {opacity: 0.75}
     100% { opacity: 1}
 
 }
