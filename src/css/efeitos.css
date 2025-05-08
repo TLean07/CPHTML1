@@ -25,3 +25,22 @@
     transform: scale(1.03);
     box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
 }
+.membros .membro:nth-child(odd) {
+    background-color: rgba(164, 123, 94, 0.1); 
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.membro h3::before {
+    content: "🍷 ";
+    opacity: 0.8;
+    margin-right: 5px;
+}
+
+.equipe h2 {
+    transition: transform 0.3s; 
+}
+
+.equipe h2:hover {
+    transform: scale(1.05); 
+}
