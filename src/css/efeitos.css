@@ -212,3 +212,21 @@ html {
 
 /* CONTATO*/ 
 
+input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input[type="email"]:valid {
+  border-color: green;
+  background-color: #e6ffe6;
+}
+
+input[type="email"]:invalid {
+  border-color: red;
+  background-color: #ffe6e6;
+}
