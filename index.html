@@ -80,6 +80,25 @@
         </table>
       </section>
 
+      <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const links = Array.from(document.querySelectorAll('a[href]'))
+      .filter(a => a.hostname === location.hostname);
+
+    links.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.body.classList.add('fade-out');
+        const destino = link.href;
+        setTimeout(() => {
+          window.location = destino;
+        }, 600); 
+      });
+    });
+  });
+</script>
+
+
   <footer>
     <p>&copy; 2025 Vinheria Agnello — Todos os direitos reservados</p>
   </footer>
